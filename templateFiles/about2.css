@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Renua Trials";
+    src: url(fonts/RanuaTrials-Medium.ttf);
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    
+    }
+    .aboutmain{
+      color: rgb(255, 255, 255);
+      font-family: Renua Trials;
+      font-weight: 700px;
+      font-size: 45px;
+      margin: 200px 400px;}
+
+    .about{
+      min-height: 100vh;
+      width: 80%;
+      color: white;
+      margin: 100px 180px;
+      font-family: 'Nunito',sans-serif;
+  }

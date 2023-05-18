@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Renua Trials";
+    src: url(fonts/RanuaTrials-Medium.ttf);
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    .header{
+    max-height: 100%;
+    width: 100%;
+    background-image: url(aksh3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    }
+    nav{
+        display: flex;
+        padding: 40px 80px;
+        justify-content: space-evenly;
+        align-items: top;
+    }
+    nav img{
+        
+        width: 159px;
+        padding: 0px 70px;
+        align-items: left;
+        margin: -20px 5px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: center;
+        scroll-behavior: smooth;
+    
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 25px 60px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: bold;
+        font-weight: 590px;
+        font-size: 23;
+    }
+    
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        margin:auto;
+        transition: 0.7s;
+    }
+    .nav-links ul li:hover:after{
+        width: 100%;
+    }
+    .subm{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        
+        align-items: left;
+        max-width: 600px;
+        font-family:'Nunito', sans-serif;
+         margin: -203px 120px 50px 565px;
+          
+    }
+    .sub{
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        margin: -75px 75px;
+        font-weight: 700px;
+        font-size: 23;
+        align-items: left;
+        max-width: 630px;
+    }
+    .button {
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #f37d00;
+        border: none;
+        color: #FFFFFF;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 2px 200px 100px 620px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    .imgsi img{
+        padding: 23px;
+        margin: 220px 100px 200px 575px;}
