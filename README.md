@@ -22,3 +22,13 @@ Finally, the translated SRT file is sent as a download attachment to the user's 
 When you run the application locally with app.run(debug=True), it will start a web server on your computer, allowing you to access the application through your web browser. The server is set to run in debug mode, so any errors will be displayed in the browser for easier debugging during development.
 
 In summary, this Flask web app lets users download YouTube videos and obtain the video's speech as transcribed text, which is then translated to Spanish and provided as a downloadable SRT subtitle file.
+
+# Screenshorts
+
+![image](https://github.com/akshjoha/English-to-Spanish-subtitle-generator/assets/74461670/b105a9d8-0ecd-4b9d-bea0-31ca51d8effa)
+
+![image](https://github.com/akshjoha/English-to-Spanish-subtitle-generator/assets/74461670/6647e7e5-6b2d-433e-8495-7cc641733957)
+
+![image](https://github.com/akshjoha/English-to-Spanish-subtitle-generator/assets/74461670/56630824-70ac-4f71-b177-310d62140b35)
+
+
